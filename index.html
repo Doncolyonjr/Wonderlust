@@ -258,32 +258,32 @@
             
                 <div>
                     <label>First Name<span>*</span></label>
-                    <input>
+                    <input id="fname" type="text" autocomplete="name">
                 </div>
                 <div>
                     <label>Last Name<span>*</span></label>
-                    <input>
+                    <input id="lname" type="text" autocomplete="name">
                 </div>
                 <div>
                     <label>Email<span>*</span></label>
-                    <input>
+                    <input id="email" type="text" autocomplete="email">
                 </div>
                 <div>
                     <label>Phone<span>*</span></label>
-                    <input>
+                    <input id="phone" type ="text" autocomplete="tel" >
                 </div>
                 <fieldset id="preferred-contact">
                 <legend>Preferred Contact Method<span>*</span></legend>
                     <div> 
-                        <input>
+                        <input id="option1" type="radio" name="preferred-contact" value="email" >
                         <label>Email</label>
                     </div>
                     <div>
-                        <input>
+                        <input id="option2" type="radio" name="preferred-contact" value="text">
                         <label>Text</label>
                     </div>
                     <div>
-                        <input>
+                        <input id="option3" type="radio" name="preferred-contact" value="phone">
                         <label>Phone</label>
                     </div>
                 </fieldset>
@@ -313,7 +313,7 @@
                         <option>Flexible</option>
                     </select>
                 </fieldset>
-                <input>
+                <input type="submit">
             
         </section>
         <section id="legal">
